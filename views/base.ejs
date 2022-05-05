@@ -1,0 +1,24 @@
+<%-include('header')-%>
+<div class="text-center center-div" id="login" style="height: 100vh;">
+    <div class="container w-25 border py-5">
+        <div class="title">
+            <h2 class="font-weight-bold">LOGIN</h2>
+            <span><%= locals.logout %></span>
+        </div>
+        <form action="/route/login" method="post" class="pt-3">
+            <div class="form-group">
+                <input type="email" class="form-control" placeholder="email"name="email">
+                <small class="form-text text-muted text-left">Register email address</small>
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" name="password" placeholder="password">
+
+            </div>
+            <button type="submit" class="btn btn-success mt-3 w-10 btn-usr">Submit</button>
+        </form>
+    </div>
+
+</div>
+
+<%-include('footer')-%>
+    

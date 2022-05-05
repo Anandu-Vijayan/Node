@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    background-image: url('/assets/');
+    background-color: aqua;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.center-div {
+    padding-top: 10%;
+}
+
+.btn.btn-success {
+    padding: .4em 2em;
+
+
+}
+
+#login.title>span {
+    font-size: .8em;
+}
+
+@media only screen and (max-width:1000px) {
+    .btn-usr {
+        width: 45px;
+        font-size: 5px;
+        
+    }
+    body{
+        background-position: center;
+        /* background-size:auto; */
+
+    }
+    .ko{
+        font-size: 10px;
+    }
+
+}
